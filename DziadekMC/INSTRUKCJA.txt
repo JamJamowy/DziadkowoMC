@@ -1,0 +1,41 @@
+DziadekMC — gotowa strona internetowa
+=====================================
+
+DANE UZUPEŁNIONE
+- Adres serwera: DziadkowoMC.pl
+- Wersja Minecrafta: 1.21.x
+- Discord: https://discord.gg/Yh5sJKQYR
+
+ZAWARTOŚĆ
+- index.html — treść strony i dane serwera
+- style.css — wygląd strony
+- script.js — menu mobilne i przycisk kopiowania IP
+- INSTRUKCJA.txt — ta instrukcja
+
+JAK SPRAWDZIĆ STRONĘ LOKALNIE
+1. Rozpakuj ZIP.
+2. Otwórz index.html dwuklikiem w przeglądarce.
+3. Sprawdź, czy IP, wersja i link Discorda są poprawne.
+
+PUBLIKACJA ZA DARMO PRZEZ GITHUB PAGES
+1. Wejdź na https://github.com/ i załóż konto lub zaloguj się.
+2. Kliknij + w prawym górnym rogu i wybierz New repository.
+3. Nazwij repozytorium dziadekmc. Ustaw Public i kliknij Create repository.
+4. W repozytorium kliknij Add file → Upload files.
+5. Przeciągnij pliki index.html, style.css i script.js (oraz opcjonalnie INSTRUKCJA.txt).
+6. Kliknij Commit changes.
+7. Wejdź w Settings → Pages.
+8. W sekcji Build and deployment wybierz Deploy from a branch.
+9. Ustaw Branch: main i folder /(root), następnie kliknij Save.
+10. Poczekaj kilka minut. GitHub pokaże adres opublikowanej strony.
+11. Jeśli repozytorium nazywa się dziadekmc, adres zwykle będzie wyglądał tak:
+    https://TWOJ_LOGIN.github.io/dziadekmc/
+    Zastąp TWOJ_LOGIN nazwą swojego konta GitHub.
+
+WAŻNE
+- GitHub Pages jest darmowy dla publicznych repozytoriów.
+- Nie musisz kupować domeny ani hostingu.
+- Własna domena (np. dziadekmc.pl) jest opcjonalna i może być płatna.
+- Strona używa zewnętrznego zdjęcia tła z Unsplash i fontów Google Fonts, więc ich pobranie wymaga internetu.
+- Nie ma jeszcze automatycznego statusu serwera ani liczby graczy online.
+- Przed publikacją sprawdź, czy adres IP i link Discorda są prawidłowe.

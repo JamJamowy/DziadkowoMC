@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10251f">
+  <meta name="description" content="DziadekMC — Minecraft Survival + Działki. Zbuduj swoją historię!">
+  <meta property="og:title" content="DziadekMC — Survival + Działki">
+  <meta property="og:description" content="Zbieraj surowce, buduj własne imperium i rozwijaj swoją działkę na DziadekMC.">
+  <meta property="og:type" content="website">
+  <title>DziadekMC — Survival + Działki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="nav wrap">
+    <a class="brand" href="#start" aria-label="DziadekMC — strona główna">
+      <span class="brand-cube">D</span><span>Dziadek<span class="brand-accent">MC</span><small>SURVIVAL • DZIAŁKI</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Otwórz menu" aria-expanded="false">☰</button>
+    <nav class="menu">
+      <a href="#tryb">Tryb gry</a><a href="#jak-dolaczyc">Jak dołączyć</a><a href="#zasady">Zasady</a><a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#jak-dolaczyc">GRAJ TERAZ ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="hero-overlay"></div>
+      <div class="hero-content wrap">
+        <div class="pill"><span class="pulse"></span> TWOJA PRZYGODA ZACZYNA SIĘ TUTAJ</div>
+        <p class="eyebrow">MINECRAFT • SURVIVAL • DZIAŁKI</p>
+        <h1>Witaj na<br><span>DziadekMC</span></h1>
+        <p class="hero-lead">Zbieraj surowce, buduj własne imperium i rozwijaj swoją działkę. Świat jest Twój — blok po bloku.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#jak-dolaczyc">DOŁĄCZ DO GRY <span>→</span></a>
+          <a class="btn btn-ghost" href="#tryb">POZNAJ SERWER</a>
+        </div>
+        <div class="hero-note"><span class="pixel-heart">♥</span> ZBUDUJ COŚ WIELKIEGO</div>
+      </div>
+      <div class="hero-bottom"></div>
+    </section>
+
+    <section class="stats wrap" aria-label="Najważniejsze informacje">
+      <div class="stat"><span class="stat-icon">▣</span><div><small>TRYB GRY</small><strong>Survival + Działki</strong></div></div>
+      <div class="stat"><span class="stat-icon">⌁</span><div><small>WERSJA</small><strong>Minecraft 1.21.x</strong></div></div>
+      <div class="stat"><span class="stat-icon">✦</span><div><small>ADRES SERWERA</small><strong>DziadkowoMC.pl</strong></div></div>
+    </section>
+
+    <section class="section wrap" id="tryb">
+      <div class="section-heading"><p class="eyebrow">OD KOPALNI PO WŁASNE KRÓLESTWO</p><h2>Twój świat. <span>Twoje zasady.</span></h2><p>Wskocz do świata, w którym każdy blok może być początkiem czegoś epickiego.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-art art-mining"><span>⛏</span></div>
+          <div class="feature-copy"><span class="number">01 / SURVIVAL</span><h3>Przetrwaj i rozwijaj się</h3><p>Wyrusz po surowce, odkrywaj świat, twórz ekwipunek i zamieniaj mały start w wielką przygodę.</p></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-art art-plot"><span>▦</span></div>
+          <div class="feature-copy"><span class="number">02 / DZIAŁKI</span><h3>Zbuduj po swojemu</h3><p>Stwórz własne miejsce, zaprojektuj bazę marzeń i rozwijaj je we własnym tempie.</p></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-art art-community"><span>♟</span></div>
+          <div class="feature-copy"><span class="number">03 / SPOŁECZNOŚĆ</span><h3>Graj razem</h3><p>Poznaj innych graczy, wymieniaj się pomysłami i wspólnie twórz historię DziadekMC.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="join-section" id="jak-dolaczyc">
+      <div class="join-inner wrap">
+        <div><p class="eyebrow">GOTOWY NA START?</p><h2>Wbijaj na <span>DziadekMC!</span></h2><p>Dodaj serwer do listy w Minecraft i rozpocznij swoją przygodę.</p></div>
+        <div class="server-panel">
+          <div class="server-panel-top"><span class="server-dot"></span> DANE SERWERA <span class="server-status">USTAW PRZED PUBLIKACJĄ</span></div>
+          <small>ADRES IP</small>
+          <div class="ip-row"><code id="server-ip">DziadkowoMC.pl</code><button id="copy-ip" type="button">KOPIUJ</button></div>
+          <small>WERSJA MINECRAFTA</small><strong class="version">Minecraft 1.21.x</strong>
+          <a class="discord-button" href="https://discord.gg/Yh5sJKQYR" target="_blank" rel="noopener noreferrer">DOŁĄCZ NA DISCORDA ↗</a>
+          <p class="hint">Podmień przykładowe dane w pliku <b>index.html</b> na prawdziwe IP i wersję serwera.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="zasady">
+      <div class="section-heading"><p class="eyebrow">FAJNA GRA = FAJNA ATMOSFERA</p><h2>Gramy fair.</h2><p>Przykładowy regulamin — dostosuj go do zasad obowiązujących na Twoim serwerze.</p></div>
+      <div class="rules-grid">
+        <div class="rule"><span>01</span><div><h3>Szanuj innych</h3><p>Nie obrażaj graczy i nie nękaj innych. Zachowuj kulturę na czacie.</p></div></div>
+        <div class="rule"><span>02</span><div><h3>Graj uczciwie</h3><p>Nie używaj cheatów, exploitów ani niedozwolonych wspomagaczy.</p></div></div>
+        <div class="rule"><span>03</span><div><h3>Dbaj o cudzą własność</h3><p>Nie griefuj, nie kradnij i respektuj zabezpieczenia działek.</p></div></div>
+        <div class="rule"><span>04</span><div><h3>Słuchaj administracji</h3><p>Stosuj się do zasad serwera i zgłaszaj problemy w odpowiednim miejscu.</p></div></div>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq"><div class="wrap faq-wrap">
+      <div class="section-heading"><p class="eyebrow">MASZ PYTANIE?</p><h2>FAQ</h2></div>
+      <details><summary>Jak dołączyć do DziadekMC?</summary><p>Otwórz Minecraft, przejdź do trybu wieloosobowego, dodaj serwer i wpisz prawidłowy adres IP.</p></details>
+      <details><summary>Jak zacząć budować na działce?</summary><p>Po wejściu na serwer sprawdź komendy i instrukcje dostępne na spawnie lub zapytaj administrację.</p></details>
+      <details><summary>Gdzie znajdę społeczność serwera?</summary><p>Dołącz do społeczności na Discordzie: <a class="inline-link" href="https://discord.gg/Yh5sJKQYR" target="_blank" rel="noopener noreferrer">discord.gg/Yh5sJKQYR ↗</a>.</p></details>
+    </div></section>
+
+    <section class="final-cta wrap"><div class="mini-cube">D</div><div><p class="eyebrow">TWÓJ NASTĘPNY ŚWIAT CZUŁA SIĘ SAM</p><h2>Do zobaczenia w grze!</h2><p>DziadekMC • Survival + Działki</p></div><a class="btn btn-primary" href="#jak-dolaczyc">DOŁĄCZ ↗</a></section>
+  </main>
+  <footer><div class="wrap footer-inner"><a class="brand footer-brand" href="#start"><span class="brand-cube">D</span><span>Dziadek<span class="brand-accent">MC</span><small>SURVIVAL • DZIAŁKI</small></span></a><p>Nieoficjalna strona serwera Minecraft DziadekMC. Minecraft jest znakiem towarowym Mojang Studios.</p><a href="#start">DO GÓRY ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
